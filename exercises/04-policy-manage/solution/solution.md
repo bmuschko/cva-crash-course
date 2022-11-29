@@ -31,7 +31,7 @@ default
 root
 ```
 
-Create the policy file named `secrets-list.hcl` and add the following contents.
+Create the policy file named `mounts-list.hcl` and add the following contents.
 
 ```hcl
 path "sys/mounts" {
@@ -42,15 +42,15 @@ path "sys/mounts" {
 Before creating a policy from the HCL file, format its contents to follow the style conventions. Use the `policy fmt` command to achieve the automatic formatting of the file.
 
 ```
-$ vault policy fmt secrets-list.hcl
-Success! Formatted policy: secrets-list.hcl
+$ vault policy fmt mounts-list.hcl
+Success! Formatted policy: mounts-list.hcl
 ```
 
 Create the policy using the `policy write` command and point to the HCL file.
 
 ```
-$ vault policy write secrets-list secrets-list.hcl
-Success! Uploaded policy: secrets-list
+$ vault policy write mounts-list mounts-list.hcl
+Success! Uploaded policy: mounts-list
 ```
 
 List the policies again. The new policy will be rendered as part of the policy list.
@@ -58,14 +58,14 @@ List the policies again. The new policy will be rendered as part of the policy l
 ```
 $ vault policy list
 default
-secrets-list
+mounts-list
 root
 ```
 
 At any time, you can have a look at the rules of a policy with the `policy read` command. The output of the command will simply render the contents of the uploaded HCL file.
 
 ```
-$ vault policy read secrets-list
+$ vault policy read mounts-list
 path "sys/mounts" {
   capabilities = ["read"]
 }
@@ -86,6 +86,6 @@ You can directly edit the policy from the UI. Press the "Save" button to let the
 Alternatively, you can also update the policy from the CLI. First, you need to modify the policy file and then use the `policy write` command to apply the changes.
 
 ```
-$ vault policy write secrets-list secrets-list.hcl
-Success! Uploaded policy: secrets-list
+$ vault policy write mounts-list mounts-list.hcl
+Success! Uploaded policy: mounts-list
 ```
