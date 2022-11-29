@@ -106,3 +106,21 @@ We can use the client token to make a call to the API endpoint. This token will 
 $ curl -H "X-Vault-Token: hvs.CAESIAy6eh7Oe6I4p5U-8jGhjsublDl-xM-wnvnD-hsg8mjwGh4KHGh2cy54R0xQVVR0d0VUSVpFTkVDRUhSQUs3R1Q" $VAULT_ADDR/v1/secret\?help\=1
 ...
 ```
+
+Disable both authentication methods with the `disable` command.
+
+```
+$ vault auth disable userpass/
+Success! Disabled the auth method (if it existed) at: userpass/
+$ vault auth disable global/
+Success! Disabled the auth method (if it existed) at: global/
+```
+
+We are back to the initial state of available authentication methods. Only the token authentication method is enabled.
+
+```
+$ vault auth list
+Path      Type     Accessor               Description                Version
+----      ----     --------               -----------                -------
+token/    token    auth_token_4e0f2b43    token based credentials    n/a
+```
