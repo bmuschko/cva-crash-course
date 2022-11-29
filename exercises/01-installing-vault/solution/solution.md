@@ -74,7 +74,7 @@ $ export VAULT_TOKEN=hvs.1dx0yCjCNZFQQOfUljLyRukq
 
 Open a browser and enter the URL `http://127.0.0.1:8200`. That will bring up the Vault UI. Use the "Token" authentication method. Enter the root token value into the field "Token". Pressing the "Sign In" button will successfully log you into Vault.
 
-![vault-ui-login](./imgs/vault-ui-login.png)
+![vault-ui-signin-token](./imgs/vault-ui-signin-token.png)
 
 You can make a call to the API using the `curl` command. Make sure to set the root token as a header. Use the Vault address that points to the local development server.
 
