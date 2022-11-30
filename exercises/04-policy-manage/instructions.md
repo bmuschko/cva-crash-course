@@ -9,4 +9,4 @@ In this exercise, you will manage a policy without assigning it yet. You will de
 5. Create the policy with the name `mounts-list`.
 6. List all available policies. You should see the new policy. Render the details of the policy.
 7. Sign into the Vault UI with the root token. Find the policy and inspect its details.
-8. Update the policy by defining another rule. For the path `sys/mounts/*` add the capabilities `read`, `list`, and `sudo`.
+8. Update the policy by defining another rule. For the path `sys/mounts/*` add the capabilities `read`, `list`, and `sudo`. Add the new rule _before_ the existing rule.
