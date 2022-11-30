@@ -75,15 +75,27 @@ You can find the list of policies under the menu item "Policies".
 
 ![vault-ui-policies](./imgs/vault-ui-policies.png)
 
-For details, simply click on the policy name. To edit the policy, click the option "Edit policy".
+For details, simply click on the policy name. You will see the contents of the uploaded policy file.
 
 ![vault-ui-policy-details](./imgs/vault-ui-policy-details.png)
 
-You can directly edit the policy from the UI. Press the "Save" button to let the changes take effect.
+You can directly edit the policy from the UI. Click the option "Edit policy". Press the "Save" button to let the changes take effect.
 
 ![vault-ui-policy-edit](./imgs/vault-ui-policy-edit.png)
 
-Alternatively, you can also update the policy from the CLI. First, you need to modify the policy file and then use the `policy write` command to apply the changes.
+Alternatively, you can also update the policy from the CLI. First, you need to modify the policy file with the following contents:
+
+```hcl
+path "sys/mounts/*" {
+  capabilities = ["read", "list", "sudo"]
+}
+
+path "sys/mounts" {
+  capabilities = ["read"]
+}
+```
+
+Then use the `policy write` command to apply the changes.
 
 ```
 $ vault policy write mounts-list mounts-list.hcl
