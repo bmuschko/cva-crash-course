@@ -63,7 +63,7 @@ ttl                 23h57m55s
 type                service
 ```
 
-The same information can be retrieved using the accessor. In this case, the accessor is `pTMjI5kDqmFazJOCCoQTNgdb`.
+Similar information can be retrieved using the accessor. In this case, the accessor is `pTMjI5kDqmFazJOCCoQTNgdb`. Note that the ID does not get rendered.
 
 ```
 $ vault token lookup -accessor pTMjI5kDqmFazJOCCoQTNgdb
