@@ -1,6 +1,6 @@
 # Exercise 8
 
-In this exercise, you will interact with a kv secrets engine by adding, updating, and deleting new secrets.
+In this exercise, you will interact with a kv secrets engine by adding, updating, and deleting new secrets. Use the `vault kv` command for each of the steps.
 
 1. Use the `kv` command to create a new secret at the path `app-kv/ext-service`. The secret creates a single key-value pair `api-key=iRJgazGtbjC9pLZCZnTMRtPk`.
 2. Use the `kv` command to read the secret at the path `app-kv/ext-service`. Furthermore, try to just get the value of the key `api-key` with a single command.
