@@ -1,5 +1,28 @@
 # Solution
 
+Run the `login` command with the root token to sign in.
+
+```
+$ vault login -address=$VAULT_ADDR $VAULT_TOKEN
+WARNING! The VAULT_TOKEN environment variable is set! The value of this
+variable will take precedence; if this is unwanted please unset VAULT_TOKEN or
+update its value accordingly.
+
+Success! You are now authenticated. The token information displayed below
+is already stored in the token helper. You do NOT need to run "vault login"
+again. Future Vault requests will automatically use this token.
+
+Key                  Value
+---                  -----
+token                hvs.1dx0yCjCNZFQQOfUljLyRukq
+token_accessor       6UqLKI9h3mCIWZrUkRFj2s2Z
+token_duration       ∞
+token_renewable      false
+token_policies       ["root"]
+identity_policies    []
+policies             ["root"]
+```
+
 Create a new secret using the `kv put` command.
 
 ```
