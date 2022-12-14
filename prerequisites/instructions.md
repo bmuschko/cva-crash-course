@@ -7,6 +7,7 @@ Exercises will require the tooling listed below. Ensure that all of those tools 
 * A computer with [Vault](https://developer.hashicorp.com/vault/docs/install) installed
 * An editor to write and modify configuration files (instructor will use [VSCode](https://code.visualstudio.com/download), but other IDEs like IDEA may work as well)
 * A [Git client](https://git-scm.com/downloads) to interact with a GitHub repository
+* An [AWS account](https://aws.amazon.com/) and credentials for creating or modifying IAM roles for one of the exercises
 
 ## Skills
 
