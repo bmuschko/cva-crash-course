@@ -1,4 +1,4 @@
-# Exercise 10
+# Exercise 12
 
 In this exercise, you will use the Transit engine for encryption/decryption purposes.
 
