@@ -72,7 +72,7 @@ $ export VAULT_ADDR='http://127.0.0.1:8200'
 $ export VAULT_TOKEN=hvs.1dx0yCjCNZFQQOfUljLyRukq
 ```
 
-Open a browser and enter the URL `http://127.0.0.1:8200`. That will bring up the Vault UI. Use the "Token" authentication method. Enter the root token value into the field "Token". Pressing the "Sign In" button will successfully log you into Vault.
+Open a browser and enter the URL [http://127.0.0.1:8200](http://127.0.0.1:8200). That will bring up the Vault UI. Use the "Token" authentication method. Enter the root token value into the field "Token". Pressing the "Sign In" button will successfully log you into Vault.
 
 ![vault-ui-signin-token](./imgs/vault-ui-signin-token.png)
 
