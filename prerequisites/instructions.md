@@ -8,6 +8,7 @@ Exercises will require the tooling listed below. Ensure that all of those tools 
 * An editor to write and modify configuration files (instructor will use [VSCode](https://code.visualstudio.com/download), but other IDEs like IDEA may work as well)
 * A [Git client](https://git-scm.com/downloads) to interact with a GitHub repository
 * An [AWS account](https://aws.amazon.com/) and credentials for to perform tasks in some of the exercises
+* An optional installation of the commandline JSON processor [jq](https://stedolan.github.io/jq/) for formatting Vault API responses
 
 ## Skills
 
