@@ -1,6 +1,6 @@
 # Solution
 
-Use the `login` command to log in with the authentication method of type Userpass. Here, we are setting the `userpass` method and provide the `username` parameter for the user `johndoe`. The command will return a client token you can use for calls to the API.
+Use the `login` command to log in with the authentication method of type Userpass. Here, we are setting the `userpass` method and provide the `username` parameter for the user `johndoe`. Enter the password you used in the previous exercise when creating the user. The command will return a client token you can use for calls to the API.
 
 ```
 $ vault login -method=userpass username=johndoe
