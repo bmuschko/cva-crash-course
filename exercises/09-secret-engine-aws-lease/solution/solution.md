@@ -30,7 +30,7 @@ $ vault secrets enable -path=aws aws
 Success! Enabled the aws secrets engine at: aws/
 ```
 
-Provide the AWS access key and secret key. Replace your credentials with the ones assigned by the CLI options `access_key` and `secret_key`.
+Provide the AWS access key and secret key. Replace your credentials with the ones assigned by the CLI options `access_key` and `secret_key`. The ones you see in the command below are example values.
 
 ```
 $ vault write aws/config/root access_key=dJhcRgfknWEEbC8jsQJXdFgX secret_key=oyaNMNdmskYUiMDnDW2toYQR
