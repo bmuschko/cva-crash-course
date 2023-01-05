@@ -135,7 +135,7 @@ ttl                 57m43s
 type                batch
 ```
 
-Trying to review a batch token will not allow the operation.
+Trying to renew a batch token will not allow the operation.
 
 ```
 $ vault token renew hvb.AAAAAQIsoyQpX8TS2KiDv2CSpapgRihMKbT1HboYLsTRNojmO-Qak4aRrzMeeTgoDo8rBsAVxOaXcO-wZCmArlgyDzne6B0ZJ4b6rfxOtJgwkk-rkUswqcb8eOOBjmsRRtlSXKSRcbnWJrOzQB029vtOwi9SLZis2g
