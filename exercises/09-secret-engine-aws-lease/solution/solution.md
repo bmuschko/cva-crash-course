@@ -64,7 +64,7 @@ Key                Value
 lease_id           aws/creds/foo/mnsqFf3duo3VnpJJzopMSx24
 lease_duration     768h
 lease_renewable    true
-access_key         AKIAQOT5DMEZA3QCXJ7O
+access_key         dJhcRgfknWEEbC8jsQJXdFgX
 secret_key         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
 security_token     <nil>
 ```
@@ -90,7 +90,7 @@ lease_id           aws/creds/foo/wWM6zTdIOBwo538bXinUH8hF
 lease_duration     30m
 lease_renewable    true
 access_key         AKIAQOT5DMEZPZYBGSF6
-secret_key         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
+secret_key         oyaNMNdmskYUiMDnDW2toYQR
 security_token     <nil>
 ```
 
