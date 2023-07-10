@@ -16,4 +16,4 @@ All [exercises](./exercises) are numbered and live in dedicated directories star
 
 * 📚 [LeanPub: HashiCorp Vault Certified Associate Preparation Guide](https://leanpub.com/vault-certified/)
 * 🎞️ [Pluralsight: HashiCorp Certified: Vault Associate](https://app.pluralsight.com/paths/certificate/hashicorp-certified-vault-associate)
-* 🧪 [Udemy: HashiCorp Certified: Vault Associate - Practice Exam - 2022](https://www.udemy.com/course/hashicorp-certified-vault-associate-practice-exam/)
+* 🧪 [Udemy: HashiCorp Certified: Vault Associate - Practice Exam - 2023](https://www.udemy.com/course/hashicorp-certified-vault-associate-practice-exam/)
