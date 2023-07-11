@@ -69,7 +69,7 @@ secret_key         gzrBkDjPkSwppgbjQTeIWOxylGSzMU40j46FOlof
 security_token     <nil>
 ```
 
-You will be able to view the credentials in the AWS dashboard under _Access Management > Users_. Every entry will have the prefix `vault-`.
+You will be able to view the credentials in the AWS dashboard under _IAM > Access Management > Users_. Every entry will have the prefix `vault-`.
 
 ![aws-users](./imgs/aws-users.png)
 
