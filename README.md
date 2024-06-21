@@ -2,7 +2,7 @@
 
 As organizations migrate to the cloud, secret management is of the utmost importance. HashiCorp Vault is a tool for storing, controlling, and accessing secrets and sensitive data in a centralized and secure fashion. The multiple-choice Vault Associate certification exam evaluates knowledge of Vault’s architecture, use of the command line and user interface to interact with the Vault server, and creating, configuring, and accessing secrets for real-world scenarios. Successful completion of the exam validates proficiency at the associate level.
 
-Join expert Benjamin Muschko to walk through all the topics covered in the exam and hear about his personal experience with preparing for all of the exam’s ins and outs.
+Join expert and [Certified Vault Associate](https://www.credly.com/badges/7e935870-6de7-46e2-8956-78bb2009041e) Benjamin Muschko to walk through all the topics covered in the exam and hear about his personal experience with preparing for all of the exam’s ins and outs.
 
 ## Prerequisites
 
